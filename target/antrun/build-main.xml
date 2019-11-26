@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="/Users/oana.cretu/IdeaProjects/secretSanta/target/app.zip">
+    <zipfileset dir="/Users/oana.cretu/IdeaProjects/secretSanta/target/docker"/>
+    <zipfileset includes="secret-santa.jar" dir="/Users/oana.cretu/IdeaProjects/secretSanta/target"/>
+  </zip>
+</target>
+</project>
